@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+/* CSS (style.css) */
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: left;
+  margin: 40px auto;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+  margin-bottom: 25px;
+  color: #fff;
+  font-weight: 300;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+img.background-image {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 250px;
+  opacity: 0.5;
+  z-index: 50;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="range"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #5ea1e3;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="range"]:focus {
+  border-color: #2e905d;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #2e905d;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #27924f;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #1e6b3d;
+  transform: translateY(0);
+}
+
+#lengthValue {
+  font-weight: bold;
+  margin-left: 10px;
+}
